@@ -1,16 +1,19 @@
 # EVM 设计与实现 - Mohanson
 
-本页内容已在线发布, 地址: http://accu.cc/share/evm
+本页内容已在线发布, 地址: http://accu.cc/content/share/evm
 
 # 关于作者
 
-- CITA-vm: https://github.com/cryptape/cita-vm
+- CITA-vm: [https://github.com/cryptape/cita-vm](https://github.com/cryptape/cita-vm)
 
-- pywasm: https://github.com/mohanson/pywasm
+- pywasm: [https://github.com/mohanson/pywasm](https://github.com/mohanson/pywasm)
 
-- gameboy: https://github.com/mohanson/gameboy
+- gameboy: [https://github.com/mohanson/gameboy](https://github.com/mohanson/gameboy)
 
 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -40,6 +43,9 @@ ADD
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 # EVM 介绍
 
@@ -53,6 +59,9 @@ PUSH1 0x04
 ADD
 ```
 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -76,6 +85,9 @@ EVM 堆栈的栈顶大小是 256 位, 最大深度是 1024. 由于堆栈数据�
 |---------|                    |------------|              |---------|
 ```
 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -131,6 +143,9 @@ EVM 由于采用 256 位比特长度机器码, 其寻址宽度是 0 ~ 0xFFFFFFFF
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 # 永久内存
 
@@ -154,6 +169,9 @@ EVM 由于采用 256 位比特长度机器码, 其寻址宽度是 0 ~ 0xFFFFFFFF
 }
 ```
 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -229,6 +247,9 @@ SSTORE 操作码的值是 0x55. 它表示从栈中 POP 两个元素, 第一个�
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 # Gas
 
@@ -238,6 +259,9 @@ EVM 是图灵等价的, 为了限制执行交易所需的工作量, 当 EVM 执�
 
 详细 Gas 消耗规则请参考以太坊黄皮书.
 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -356,6 +380,9 @@ Return  = 37
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 # EVM 的缺陷与不足
 
@@ -365,6 +392,9 @@ Return  = 37
 
 - JUMP/JUMPI 指令的设计使 EVM 字节码几乎无法被静态分析. 参看 [EIP-615](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-615.md).
 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
