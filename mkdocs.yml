@@ -117,6 +117,10 @@ nav:
         - ETH-重写EVM-燃气: content/bc/eth/evm/fee.md
         - ETH-重写EVM-消息调用: content/bc/eth/evm/message_call.md
         - Substrate-wasm: content/bc/substrate_wasm_runtime.md
+- 主题分享:
+        - 深度学习 [2018.05] [又拍云]: content/share/deep_learning.md
+        - EVM [2018.12] [秘猿/北大]: content/bc/eth/evm/overview.md
+        - EVM 设计与实现 [2019.04] [BFTF 线下]: content/share/evm.md
 - 未分类:
         - Linux-Supervisor: content/os/supervisor.md
         - Linux-常用软件安装与配置: content/os_install.md
@@ -132,4 +136,3 @@ nav:
         - Math-正态分布: content/normal_distribution.md
         - Math-凯利公式: content/kelly_formula.md
         - HOG: content/hog.md
-        - Upyun-shared: content/upyun_shared.md
